@@ -1,0 +1,53 @@
+/* 
+    font-family: 'Monoton';
+    font-family: "Special Elite";
+     */
+
+     * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .header-container {
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .header {
+        /* border: 3px solid blue; */
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0px;
+    }
+    
+    .header-links-container {
+        /* border: 3px solid yellow; */
+        /* display: flex; */
+        /* align-items: center; */
+    }
+    
+    .header-links {
+        /* border: 3px solid purple; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    
+    .header-links a {
+        font-family : "Special Elite", 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: hsl(0, 100%, 100%);
+        /* color: black; */
+        font-size: 30px;
+        /* -webkit-text-fill-color: rgb(255, 68, 0); */
+       /* -webkit-text-stroke-width: 1px; */
+       /* -webkit-text-stroke-color: black; */
+       /* background-color: hsla(0, 0%, 50%, .9); */
+       color: black;
+    }

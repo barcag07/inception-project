@@ -13,8 +13,9 @@
 .header-container {
     /* border: 3px solid red; */
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #36525F; */
 }
 
 .header {
@@ -50,4 +51,129 @@
    /* -webkit-text-stroke-color: black; */
    /* background-color: hsla(0, 0%, 50%, .9); */
    color: black;
+}
+
+.about-me {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+}
+
+.about-me-text {
+    /* border: 3px solid blue; */
+    font-size: 45px;
+}
+
+.main-content-container {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.main-content {
+    /* border: 3px solid blue; */
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-text-container {
+    /* border: 3px solid yellow; */
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.summary-text {
+    /* border: 3px solid brown; */
+    padding: 0 200px 200px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.summary-img {
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+
+.summary-img img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.semester-future-container {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.current-future {
+    /* border: 3px solid blue; */
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-img-box {
+    /* border: 3px solid yellow; */
+    display: flex;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.text-container {
+    /* border: 3px solid green; */
+    flex: 1;
+}
+
+.text-box {
+    /* border: 3px solid darkblue; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title {
+    /* border: 3px solid hotpink; */
+}
+
+.text {
+    /* border: 3px solid crimson; */
+    flex: 1;
+}
+
+.img-container {
+    /* border: 3px solid purple; */
+    flex: 1;
+    height: 100%;
+}
+
+.text-img-box img {
+    /* border: 3px solid black; */
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.top-box .text-container {
+    order: 2;
+}
+
+.future-goals img {
+    order: 1;
 }

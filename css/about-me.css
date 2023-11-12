@@ -8,6 +8,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
+    color: #F7F7F7;
+}
+
+.about-me-page-container {
+    background-color: #010921;
 }
 
 .header-container {
@@ -15,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #36525F; */
+    background-color: #B2D2DD;
 }
 
 .header {
@@ -70,6 +75,7 @@
     display: flex;
     justify-content: center;
     margin: 100px;
+
 }
 
 .main-content {
@@ -116,14 +122,22 @@
     /* border: 3px solid red; */
     display: flex;
     justify-content: center;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+    /* min-height: 100%; */
 }
 
 .current-future {
     /* border: 3px solid blue; */
-    width: 1200px;
-    height: 800px;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .text-img-box {
@@ -131,7 +145,7 @@
     display: flex;
     flex: 1;
     display: flex;
-    align-items: center;
+    /* align-items: stretch; */
     background-color: #F7F7F7;
 }
 
@@ -160,14 +174,16 @@
 .img-container {
     /* border: 3px solid purple; */
     flex: 1;
-    height: 100%;
+    min-height: 100%;
+    
 }
 
 .text-img-box img {
     /* border: 3px solid black; */
     flex: 1;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    object-fit: cover; /* Makes sure the image takes up all the space*/
 }
 
 .top-box .text-container {
@@ -176,4 +192,9 @@
 
 .future-goals img {
     order: 1;
+}
+
+.text-box .title,
+.text-box .text {
+    color: #010921;
 }

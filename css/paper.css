@@ -12,6 +12,15 @@ font-family: "Special Elite";
     font-size: 24px;
 }
 
+p {
+    line-height: 2;
+    text-indent: 48.0px;
+}
+
+.p2 {
+    text-align: center;
+}
+
 .paper-page-container {
     background-color: #010921;
     /* color: #B2D2DD; */

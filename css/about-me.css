@@ -180,11 +180,11 @@
     /* border: 3px solid purple; */
     flex: 1;
     min-height: 100%;
-    
+    height: 500px;
 }
 
 .text-img-box img {
-    /* border: 3px solid black; */
+    /* border: 3px solid orange; */
     flex: 1;
     width: 100%;
     min-height: 100%;
